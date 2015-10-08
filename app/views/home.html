@@ -1,16 +1,17 @@
+<input ng-model="query">
 <table>
     <thead>
         <tr>
-            <th>Nom</th>
+            <th><a href="" ng-click="ctrl.sortBy('name')">Nom</a></th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="step in ctrl.steps track by $index">
+        <tr ng-repeat="step in ctrl.steps | filter:{name:query} | orderBy:ctrl.predicate:ctrl.reverse track by $index">
             <td>{{ step.name }}</td>
             <td>
                 <a ng-href="">Edit</a>
-                <a ng-href="#/play/{{ step.id }}">Start !</a>
+                <a ng-href="#/play/{{ step.id }}" ng-show="step.start">Start !</a>
             </td>
         </tr>
     </tbody>

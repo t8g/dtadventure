@@ -3,9 +3,9 @@ Textual adventure game made in angularjs for educational purpose
 
 # TODO
 
-* [ ] Trier le tableau sur nom
-* [ ] Mettre un moteur de recherche
-* [ ] Afficher le bouton play uniquement pour les étapes de démarrage
+* [x] Trier le tableau sur nom
+* [x] Mettre un moteur de recherche
+* [x] Afficher le bouton play uniquement pour les étapes de démarrage
 
 * [ ] Ajouter controller édition EditStepController
 * [ ] Ajouter vue édition edit.html
