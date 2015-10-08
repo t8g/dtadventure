@@ -15,12 +15,12 @@ Textual adventure game made in angularjs for educational purpose
     * [x] name : input type text
     * [x] description : textarea
     * [x] start : checkbox
-    * actions : ???? (sous formulaire ?, ajout / suppression d'une action ?)
+    * [x] actions : ???? (sous formulaire ?, ajout / suppression d'une action ?)
 * [x] Action de sauvegarde
     * [x] Nouvelle méthode dans StepService
 
-* [ ] Ajouter lien pour créer une nouvelle étape
-* [ ] Ajouter bouton pour supprimer une étape
+* [x] Ajouter lien pour créer une nouvelle étape
+* [x] Ajouter bouton pour supprimer une étape
 
 * [ ] Lors du clic sur play remettre les valeurs de l'utilisateur à des valeurs par défaut
 * [ ] Sur play au retour d'une action rediriger sur route spéciale si user est mort (défaite)
@@ -29,4 +29,6 @@ Textual adventure game made in angularjs for educational purpose
 * [ ] Modifier fight ?
 * [ ] Créer une autre action ?
 * [ ] Une autre idée ?
+
+https://dl.dropboxusercontent.com/u/2232800/angularjs.zip
 

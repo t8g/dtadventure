@@ -4,7 +4,16 @@
       "id": 1,
       "name": "Entrée du donjon",
       "start": true,
-      "description": "Blalmkjze lfkjezf"
+      "description": "Bienvenue",
+      "actions": [
+        {
+          "type": "go",
+          "name": "Entrez",
+          "params": {
+            "step": 2
+          }
+        }
+      ]
     },
     {
       "id": 2,
@@ -58,8 +67,8 @@
           "type": "fight",
           "name": "Combattez le dragon",
           "params": {
-            "life": -10,
-            "gold": 1000
+            "gold": 10,
+            "life": -10
           }
         },
         {
@@ -70,6 +79,13 @@
           }
         }
       ]
+    },
+    {
+      "name": "test11",
+      "description": "test test sdsds",
+      "start": false,
+      "actions": [],
+      "id": 5
     }
   ]
 }
