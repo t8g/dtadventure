@@ -7,10 +7,10 @@ Textual adventure game made in angularjs for educational purpose
 * [x] Mettre un moteur de recherche
 * [x] Afficher le bouton play uniquement pour les étapes de démarrage
 
-* [ ] Ajouter controller édition EditStepController
-* [ ] Ajouter vue édition edit.html
-* [ ] Ajouter la route correspondante
-* [ ] Modifier home.html avec le lien vers la nouvelle route
+* [x] Ajouter controller édition EditStepController
+* [x] Ajouter vue édition edit.html
+* [x] Ajouter la route correspondante
+* [x] Modifier home.html avec le lien vers la nouvelle route
 * [ ] Formulaire édition
     * name : input type text
     * description : textarea

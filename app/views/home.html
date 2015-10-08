@@ -10,9 +10,15 @@
         <tr ng-repeat="step in ctrl.steps | filter:{name:query} | orderBy:ctrl.predicate:ctrl.reverse track by $index">
             <td>{{ step.name }}</td>
             <td>
-                <a ng-href="">Edit</a>
+                <a ng-href="#/edit/{{ step.id }}">Edit</a>
                 <a ng-href="#/play/{{ step.id }}" ng-show="step.start">Start !</a>
             </td>
         </tr>
     </tbody>
 </table>
+
+
+<!-- this.actions = ["go", "chest", "fight"] -->
+<select
+    ng-model="toto"
+    ng-options="action for action in ctrl.actions"></select>

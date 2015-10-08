@@ -4,7 +4,7 @@ import ngRoute from 'angular-route'
 import configuration from './configuration'
 import HomeController from './controllers/HomeController'
 import PlayStepController from './controllers/PlayStepController'
-//import EditStepController from './controllers/EditStepController'
+import EditStepController from './controllers/EditStepController'
 import StepService from './services/StepService'
 import ActionService from './services/ActionService'
 import UserService from './services/UserService'
@@ -17,8 +17,7 @@ angular.module('DTAdventure', [ngRoute])
 // controllers
 .controller('HomeController', HomeController)
 .controller('PlayStepController', PlayStepController)
-//.controller('EditStepController', EditStepController)
-
+.controller('EditStepController', EditStepController)
 
 // filters
 
