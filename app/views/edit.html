@@ -1,1 +1,29 @@
-<pre>{{ ctrl.step | json }}</pre>
+<form ng-submit="ctrl.save()" name="ctrl.stepForm" novalidate>
+
+    <p>
+        <label for="name">Name *</label>
+        <input ng-model="ctrl.step.name" name="name" id="name" type="text" required>
+    </p>
+
+    <p>
+        <label for="start">Start</label>
+        <input ng-model="ctrl.step.start" name="start" id="start" type="checkbox">
+    </p>
+
+    <p>
+        <label for="desc">Description</label>
+        <textarea ng-model="ctrl.step.description"
+            name="description"
+            id="desc"></textarea>
+    </p>
+
+    <p>
+        <button type="submit">Save</button>
+    </p>
+
+</form>
+
+<!-- this.actions = ["go", "chest", "fight"] -->
+<!-- <select -->
+<!--     ng-model="toto" -->
+<!--     ng-options="action for action in ctrl.actions"></select> -->

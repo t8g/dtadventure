@@ -11,12 +11,22 @@ Textual adventure game made in angularjs for educational purpose
 * [x] Ajouter vue édition edit.html
 * [x] Ajouter la route correspondante
 * [x] Modifier home.html avec le lien vers la nouvelle route
-* [ ] Formulaire édition
-    * name : input type text
-    * description : textarea
-    * start : checkbox
+* [x] Formulaire édition
+    * [x] name : input type text
+    * [x] description : textarea
+    * [x] start : checkbox
     * actions : ???? (sous formulaire ?, ajout / suppression d'une action ?)
-* [ ] Action de sauvegarde
-    * Nouvelle méthode dans StepService
+* [x] Action de sauvegarde
+    * [x] Nouvelle méthode dans StepService
 
+* [ ] Ajouter lien pour créer une nouvelle étape
+* [ ] Ajouter bouton pour supprimer une étape
+
+* [ ] Lors du clic sur play remettre les valeurs de l'utilisateur à des valeurs par défaut
+* [ ] Sur play au retour d'une action rediriger sur route spéciale si user est mort (défaite)
+* [ ] Créer route spéciale de défaite
+
+* [ ] Modifier fight ?
+* [ ] Créer une autre action ?
+* [ ] Une autre idée ?
 

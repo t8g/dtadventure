@@ -3,17 +3,8 @@
     {
       "id": 1,
       "name": "Entrée du donjon",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed distinctio quas mollitia iusto quaerat delectus ullam eius fugit optio voluptates.",
       "start": true,
-      "actions": [
-        {
-          "type": "go",
-          "name": "Entrez dans le donjon",
-          "params": {
-            "step": 2
-          }
-        }
-      ]
+      "description": "Blalmkjze lfkjezf"
     },
     {
       "id": 2,
